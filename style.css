@@ -1,0 +1,659 @@
+/*CSS Reset*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/*Universal styling choices*/
+.img {
+  display: block;
+  max-width: 100%;
+}
+
+/*Header*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(1, 175, 87, 0.4);
+  padding: 0.75rem 0rem 0.75rem 0rem;
+}
+.top-right-ui {
+  margin-right: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+.main-logo {
+  margin-left: 0.5rem;
+}
+.prompts {
+  margin: 0rem 0.75rem 0rem 0.75rem;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #1f2420;
+}
+#try-container {
+  border-radius: 2px;
+  background-color: #01af57;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1rem;
+  padding: 0.75rem 1rem;
+}
+.hamburger {
+  margin-right: 0.25rem;
+}
+/*First page*/
+.first-page-bg {
+  padding: 14rem 0rem 20rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  /* margin : 0px auto; */
+}
+.intro-text h1 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+  color: #395157;
+  margin-bottom: 2rem;
+}
+.intro-text p {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+/*Second page*/
+.safety-page {
+  padding: 5rem 0rem;
+  display: flex;
+}
+.safety-splash {
+  background-color: #01af57;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.dropdown-content {
+  display: none;
+  background-color: black;
+  color: white;
+  padding: 2rem 1rem;
+}
+.second-page-box {
+  background: #d2f3de;
+}
+.safety-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+/*Testimonial Page*/
+/*Common*/
+.testimonial-page {
+  display: flex;
+  padding: 10rem 0rem;
+}
+.non-splash {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.not-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.review-container {
+  margin: 4rem 0rem;
+  display: flex;
+  flex-flow: row wrap;
+}
+.review {
+  background: rgba(31, 36, 32, 0.9);
+  width: 38%;
+  padding: 1.5rem 1rem;
+  display: grid;
+  grid-template: 3fr 2fr/1fr 3fr;
+  margin: 1.5rem;
+  border-radius: 12px;
+  position: relative;
+}
+.rev-content {
+  color: #f6fffa;
+  display: flex;
+  align-items: center;
+  margin-top: -2rem;
+  font-size: 1rem;
+}
+.pfp {
+  display: flex;
+}
+.sign {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.user {
+  color: #01af57;
+  line-height: 2rem;
+  font-size: 1.25rem;
+}
+.desig {
+  color: #8fa898;
+  line-height: 1.25rem;
+  font-size: 1rem;
+}
+.user{
+  margin-top: 0.5rem;
+}
+.desig
+{
+  margin-bottom : 0.25rem;
+}
+#slider {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+.not-title p {
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+}
+#mmmm {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3em;
+  color: #395157;
+}
+.quote1, .quote2 {
+  position: absolute;
+}
+.quote1
+{
+  left : -1.5rem;
+  top : -1.75rem;
+}
+.quote2
+{
+  left : 0.5rem;
+  top : -1.75rem;
+}
+
+/*FAQs Page (Common)*/
+.faq-section {
+  width: 100%;
+  padding: 8rem 0rem;
+  display: flex;
+}
+.faq-text {
+  display: flex;
+  flex-direction: column;
+}
+.faq-text h1 {
+  color: #395157;
+  font-weight: 500;
+}
+.faq-text p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: black;
+  font-weight: 400;
+}
+.faq-blocks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.faq {
+  background-color: #01af57;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  margin: 0.5rem 0rem;
+}
+/*Love this overlapping solution*/
+.holder {
+  display: grid;
+}
+.holder img {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  /**/
+  place-self: center;
+}
+/*Footer*/
+footer {
+  background-color: #1f2420;
+  display: flex;
+}
+.upper-icons {
+  display: flex;
+  flex-direction: column;
+}
+.unhasell {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.unhasell img {
+  margin-right: 1rem;
+}
+.social-media {
+  display: flex;
+  justify-content: space-around;
+}
+.contacts {
+  display: grid;
+  grid-template: 1fr 1fr 1fr/ 1fr 3fr;
+  grid-auto-flow: column;
+}
+.contacts p {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  /* font-size: 24px;
+  line-height: 30px; */
+  color: white;
+}
+.about h1 {
+  color: #8fa898;
+  font-style: normal;
+  font-weight: 500;
+  /* font-size: 28px;
+  line-height: 34px; */
+  margin-bottom: 1rem;
+}
+.about p {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  /* font-size: 24px;
+  line-height: 30px; */
+}
+.circle-icons
+{
+  display: grid;
+}
+.circle-icons img
+{
+  grid-row-start: 1;
+  grid-column-start: 1;
+  place-self: center;
+}
+@media only screen and (min-width: 1000px) {
+  .mobile {
+    display: none;
+  }
+  /*Header*/
+  .hamburger {
+    display: none;
+  }
+  /*First page*/
+  .intro-text h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .intro-text p {
+    font-size: 1.75rem;
+  }
+  #box-1 {
+    position: absolute;
+    width: 15%;
+    top: 4rem;
+    left: 0px;
+    z-index: 1;
+    background: rgba(138, 222, 155, 0.2);
+    padding: 8% 0rem;
+  }
+  #box-2 {
+    position: absolute;
+    width: 15%;
+    top: 24rem;
+    left: 3rem;
+    z-index: 1;
+    background: rgba(138, 222, 155, 0.2);
+    padding: 10% 0rem;
+  }
+  #box-3 {
+    position: absolute;
+    width: 12%;
+    top: 24rem;
+    left: 30rem;
+    z-index: 1;
+    background: rgba(138, 222, 155, 0.2);
+    padding: 8% 0rem;
+  }
+  #box-4 {
+    position: absolute;
+    width: 12%;
+    top: 8rem;
+    right: 24rem;
+    z-index: 1;
+    background: rgba(138, 222, 155, 0.2);
+    padding: 8% 0rem;
+  }
+  #box-5 {
+    position: absolute;
+    width: 13%;
+    top: 26rem;
+    right: 8rem;
+    z-index: 1;
+    background: rgba(138, 222, 155, 0.2);
+    padding: 8% 0rem;
+  }
+  #box-6 {
+    position: absolute;
+    width: 15%;
+    top: 4rem;
+    right: 0px;
+    z-index: 1;
+    background: rgba(138, 222, 155, 0.2);
+    padding: 8% 0rem;
+  }
+  /*Second page*/
+  .safety-page {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .second-page-box {
+    width: 50%;
+    padding: 12rem 0rem;
+  }
+  .safety-list {
+    width: 40%;
+    justify-content: flex-start;
+  }
+  .safety-splash {
+    margin: 0.5rem 0rem 0rem 0rem;
+    padding: 1rem;
+  }
+  /*Testimonial Page*/
+  /*Desktop*/
+  .testimonial-page {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .testimonial-splash {
+    width: 10%;
+    padding: 8rem 0rem;
+    background-color: #01af57;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .testimonial-splash h1 {
+    color: white;
+    transform: rotate(-90deg);
+    font-size : 4rem;
+  }
+  .non-splash {
+    width: 70%;
+  }
+  .not-title p {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+  #mmmm {
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  .pfp {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  /*FAQs Page (Desktop)*/
+  .faq-section {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .faq-text h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+  .faq-text p {
+    width: 80%;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .faq-blocks {
+    width: 40%;
+  }
+  .faq {
+    width: 100%;
+  }
+  /*Footer (desktop)*/
+  footer {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 6rem 2rem;
+  }
+  .upper-icons {
+    order: 1;
+  }
+  .contacts {
+    width: 30%;
+  }
+  .about {
+    order: 2;
+    width: 30%;
+    margin-right: 4rem;
+  }
+  .contacts p {
+    font-size: 1rem;
+    line-height: 1.75rem;
+  }
+  .about h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .about p {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  /*Header*/
+  .non-try {
+    display: none;
+  }
+  /*First page*/
+  .intro-text h1 {
+    font-size: 2rem;
+    line-height: 1.5rem;
+  }
+ 
+  .intro-text p {
+    font-size: 1.25rem;
+  }
+  #box-1 {
+    position: absolute;
+    width: 30%;
+    top: 6rem;
+    left: 0px;
+    z-index: 1;
+    background: rgba(138, 222, 155, 0.2);
+    padding: 20% 0rem;
+  }
+  #box-2 {
+    position: absolute;
+    width: 25%;
+    top: 24rem;
+    left: 1.5rem;
+    z-index: 1;
+    background: rgba(138, 222, 155, 0.2);
+    padding: 16% 0rem;
+  }
+  #box-3 {
+    position: absolute;
+    width: 16%;
+    top: 20rem;
+    left: 10rem;
+    z-index: 1;
+    background: rgba(138, 222, 155, 0.2);
+    padding: 12% 0rem;
+  }
+  #box-4 {
+    position: absolute;
+    width: 30%;
+    top: 10rem;
+    right: 3rem;
+    z-index: 1;
+    background: rgba(138, 222, 155, 0.2);
+    padding: 18% 0rem;
+  }
+  #box-5 {
+    position: absolute;
+    width: 19%;
+    top: 22rem;
+    right: 1rem;
+    z-index: 1;
+    background: rgba(138, 222, 155, 0.2);
+    padding: 14% 0rem;
+  }
+  /*Second page*/
+  .safety-page {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .safety-list {
+    width: 100%;
+  }
+  .safety-splash {
+    padding: 1rem;
+    margin: 1rem 0.5rem 0rem 0.5rem;
+  }
+  .dropdown-content {
+    margin: 0rem 0.5rem;
+  }
+  .second-page-box {
+    padding: 20% 0rem;
+    width: 95%;
+    margin: auto;
+  }
+  /*Testimonial Page*/
+  /*Phone*/
+  .testimonial-page {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .testimonial-splash {
+    margin-bottom: 2rem;
+  }
+  .testimonial-splash h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 2rem;
+    color: #395157;
+  }
+  .desktop {
+    display: none;
+  }
+  .review-container {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  .review {
+    width: 80%;
+    padding: 4rem 1rem;
+  }
+  .not-title p {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  #mmmm {
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  .rev-content {
+    margin-top : 0.25rem;
+    align-self: center;
+    font-size: 1rem;
+  }
+  .review {
+    padding: 0.25rem 0.5rem;
+    grid-template: 2fr 1fr/1fr 3fr;
+  }
+  .pfp {
+    align-items: center;
+    justify-content: center;
+  }
+  /*FAQs Page (Mobile)*/
+  .faq-section {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .faq-text {
+    width: 60%;
+    text-align: center;
+  }
+  .faq-text h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .faq-text p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .faq-blocks {
+    margin-top: 3rem;
+    width: 80%;
+  }
+  /*Footer (mobile)*/
+  footer {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 6rem 0rem 4rem 0rem;
+    align-items: center;
+  }
+  footer div {
+    margin: 1rem 0rem;
+  }
+  .about {
+    width: 80%;
+  }
+  .contacts {
+    margin-top: 3rem;
+    margin-left: 2rem;
+  }
+  .contacts p,
+  .contacts img {
+    margin: 1rem 0rem;
+  }
+}
